@@ -44,15 +44,48 @@ body.th :lang(en){
   text-align: center;
 }
 
-p {
-  font-size: .85rem;
-  margin-top: 0;
-  margin-bottom: 0;
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  span,p {font-size:1.8rem;} /*1rem = 16px*/
   
 }
-
-.card-header {
-  max-height: 3rem;
-  margin: 0,0,0,0;
  
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* mobileeeee */
+@media (min-width: 768px) {  
+  span,p {font-size:1.8rem;} /*1rem = 16px*/
+  #small-text {font-size:1.2rem;}
 }
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  span,p {font-size:.75rem;} /*1rem = 16px*/
+  .card-header {
+    max-height: 3rem;
+    margin: 0,0,0,0;
+   
+  }
+  #small-text {font-size:.65rem;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  span,p {font-size:.9rem;} /*1rem = 16px*/    
+  .card-header {
+    max-height: 3rem;
+    margin: 0,0,0,0;
+   
+  }
+  #small-text {font-size:.72rem;}
+}
+
+
+
+img{
+  max-height: 32vh;
+}
+
+
+
