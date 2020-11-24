@@ -82,9 +82,9 @@ infospot8.position.set(4009.00, 2946.58, 472.24);
 infospot8.addHoverElement( panel8, 200 );
 
 /* 9ความร่วมมือกับท้องถิ่น */
-infospot9 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
+/* infospot9 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
 infospot9.position.set(-1284.72, 1078.65, -4700.44);
-infospot9.addHoverElement( panel9, 120 );
+infospot9.addHoverElement( panel9, 120 ); */
 
 /* 10แหล่ง้รียนรู้ */
 infospot10 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
@@ -93,7 +93,7 @@ infospot10.addHoverElement( panel10, 380 );
 
 
 
-panorama.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot6,infospot7,infospot8,infospot9,infospot10);
+panorama.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot6,infospot7,infospot8 ,infospot10);
 
 viewer = new PANOLENS.Viewer( { container: container, output: 'console',chgLang,pp } );
 viewer.add(panorama,panorama1,panorama2);

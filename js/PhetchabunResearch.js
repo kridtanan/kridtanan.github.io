@@ -50,7 +50,7 @@ infospot1.addHoverElement( panel1, 380 );
 /* 2จุดชมวิว */
 infospot2 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
 infospot2.position.set(-2963.06, -746.10, -3951.93);
-infospot2.addHoverElement( panel2, 350 );
+infospot2.addHoverElement( panel2, 300 );
 
 /*4 ประวัติ */
 infospot3 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
@@ -88,9 +88,9 @@ infospot8.position.set(-4063.72, -2101.81, -1994.62);
 infospot8.addHoverElement( panel8, 150 );
 
 /* 9ความร่วมมือกับท้องถิ่น */
-infospot9 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
+/* infospot9 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
 infospot9.position.set(-1279.60, -2306.44, -4241.88);
-infospot9.addHoverElement( panel9, 120 );
+infospot9.addHoverElement( panel9, 120 ); */
 
 /* 10แหล่ง้รียนรู้ */
 infospot10 = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
@@ -99,7 +99,7 @@ infospot10.addHoverElement( panel10, 350 );
 
 
 
-panorama.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot55,infospot6,infospot7,infospot8,infospot9,infospot10);
+panorama.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot55,infospot6,infospot7,infospot8 ,infospot10);
 
 viewer = new PANOLENS.Viewer( { container: container, output: 'console',chgLang,pp } );
 viewer.add(panorama,panorama1,panorama2);
