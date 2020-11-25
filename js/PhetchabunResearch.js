@@ -15,13 +15,10 @@ panel8 = document.querySelector('#panel8');
 panel9 = document.querySelector('#panel9');
 panel10 = document.querySelector('#panel10');
 
-panorama = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/PhetchabunResearch/0/gpfr0839_optimized.JPG' )
-
-panorama1 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga3.JPG');
-
-panorama2 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga4.JPG');
+const panorama5 = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/PhetchabunResearch/0/gpfr0839_optimized.JPG' )
 
 var invocation = new XMLHttpRequest();
+
 
 var url = 'http://bar.other/resources/post-here/';
 var body = '<?xml version="1.0"?><person><name>Arun</name></person>';
@@ -99,10 +96,10 @@ infospot10.addHoverElement( panel10, 350 );
 
 
 
-panorama.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot55,infospot6,infospot7,infospot8 ,infospot10);
+panorama5.add( infospot1,infospot2,infospot3,infospot4,infospot5,infospot55,infospot6,infospot7,infospot8 ,infospot10);
 
 viewer = new PANOLENS.Viewer( { container: container, output: 'console',chgLang,pp } );
-viewer.add(panorama,panorama1,panorama2);
+viewer.add(panorama5);
 
 
 

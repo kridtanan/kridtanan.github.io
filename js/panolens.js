@@ -1,3 +1,4 @@
+
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('three')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'three'], factory) :
@@ -122,7 +123,8 @@
 	        }
 		
 	        // Cached
-	        cached = THREE.Cache.get( reference ? reference : url );
+	        validatedUrl = url.indexOf('http') != -1 ? url : null; // make sure not relative, perhaps allow for blob as well
+	        cached = THREE.Cache.get( reference ? reference : validatedUrl );
 		
 	        if ( cached !== undefined ) {
 		
