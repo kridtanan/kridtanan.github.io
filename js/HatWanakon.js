@@ -16,9 +16,9 @@ panel10 = document.querySelector('#panel10');
 
 panorama = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/HatWanakon/0/gpbk0455_optimized.jpg' )
 
-panorama1 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga3.JPG');
+panorama1 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga3.jpg');
 
-panorama2 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga4.JPG');
+panorama2 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga4.jpg');
 
 var invocation = new XMLHttpRequest();
 

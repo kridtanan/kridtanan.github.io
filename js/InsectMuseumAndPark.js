@@ -14,11 +14,11 @@ panel8 = document.querySelector('#panel8');
 panel9 = document.querySelector('#panel9');
 panel10 = document.querySelector('#panel10');
 
-panorama = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/InsectMuseumAndPark/0/gptempdownload(2)_optimized.JPG' )
+panorama = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/InsectMuseumAndPark/0/gptempdownload(2)_optimized.jpg' )
 
-panorama1 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga3.JPG');
+panorama1 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga3.jpg');
 
-panorama2 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga4.JPG');
+panorama2 = new PANOLENS.ImagePanorama('../asset/textures/equirectangular/panga4.jpg');
 
 var invocation = new XMLHttpRequest();
 
