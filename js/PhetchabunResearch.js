@@ -15,7 +15,7 @@ panel8 = document.querySelector('#panel8');
 panel9 = document.querySelector('#panel9');
 panel10 = document.querySelector('#panel10');
 
-const panorama5 = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/PhetchabunResearch/0/gpfr0839_optimized.JPG' )
+const panorama5 = new PANOLENS.ImagePanorama( '../asset/textures/equirectangular/PhetchabunResearch/0/gpfr0839_optimized.jpg' )
 
 var invocation = new XMLHttpRequest();
 
